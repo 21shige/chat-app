@@ -43,8 +43,9 @@
 }
 
 .room-name a {
-  color: white;
   text-decoration: none;
+  color: white;
+ 
 }
 
 .chat {

@@ -72,7 +72,7 @@ RSpec.describe 'メッセージ投稿機能', type: :system do
       expect(current_path).to eq(room_messages_path(@room_user.room))
 
       # 送信した画像がブラウザに表示されていることを確認する
-      expect(page).to have_selector('img')
+      expect(page).to have_selector "img"
 
     end
 
